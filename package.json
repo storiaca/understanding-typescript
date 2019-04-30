@@ -1,0 +1,26 @@
+{
+  "name": "typescript-complete-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storiaca/understanding-typescript.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Aleksandar Ristic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/storiaca/understanding-typescript/issues"
+  },
+  "homepage": "https://github.com/storiaca/understanding-typescript#readme",
+  "devDependencies": {
+    "lite-server": "2.4.0"
+  }
+}
