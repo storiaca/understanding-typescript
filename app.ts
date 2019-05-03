@@ -31,3 +31,15 @@ hobbies = [100];
  * Tuple type variable 
  */
 let address: [string, number] = ["Superstreet", 99]
+
+/**
+ * Enum type
+ */
+enum Color {
+  Gray, // 1
+  Green = 100, // 100
+  Blue // 3
+}
+
+let myColor: Color = Color.Green;
+console.log(myColor);
