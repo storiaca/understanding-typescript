@@ -26,3 +26,8 @@ myRealAge = 27;
  */
 let hobbies: any[] = ["Cooking", "Sports"];
 hobbies = [100];
+
+/**
+ * Tuple type variable 
+ */
+let address: [string, number] = ["Superstreet", 99]
