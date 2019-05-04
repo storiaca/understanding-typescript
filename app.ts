@@ -28,9 +28,9 @@ let hobbies: any[] = ["Cooking", "Sports"];
 hobbies = [100];
 
 /**
- * Tuple type variable 
+ * Tuple type variable
  */
-let address: [string, number] = ["Superstreet", 99]
+let address: [string, number] = ["Superstreet", 99];
 
 /**
  * Enum type
@@ -43,3 +43,11 @@ enum Color {
 
 let myColor: Color = Color.Green;
 console.log(myColor);
+
+/**
+ * Any type
+ */
+let car: any = "BMW";
+console.log(car);
+car = { brand: "BMW", series: 3 };
+console.log(car);

@@ -33,8 +33,15 @@ var address = ["Superstreet", 99];
 var Color;
 (function (Color) {
     Color[Color["Gray"] = 0] = "Gray";
-    Color[Color["Green"] = 1] = "Green";
-    Color[Color["Blue"] = 2] = "Blue";
+    Color[Color["Green"] = 100] = "Green";
+    Color[Color["Blue"] = 101] = "Blue"; // 3
 })(Color || (Color = {}));
 var myColor = Color.Green;
 console.log(myColor);
+/**
+ * Any type
+ */
+var car = "BMW";
+console.log(car);
+car = { brand: "BMW", series: 3 };
+console.log(car);
