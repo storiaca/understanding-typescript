@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/storiaca/understanding-typescript#readme",
   "devDependencies": {
-    "lite-server": "2.4.0"
+    "lite-server": "2.5.3"
   }
 }
