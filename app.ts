@@ -53,7 +53,7 @@ car = { brand: "BMW", series: 3 };
 console.log(car);
 
 /**
- * Functions 
+ * Functions
  */
 function returnMyName(): string {
   return myName;
@@ -79,4 +79,15 @@ let myMultiply: (val1: number, val2: number) => number;
 // myMultiply = sayHello;
 // myMultiply();
 myMultiply = multiply;
-myMultiply(5,2);
+myMultiply(5, 2);
+
+// objects
+let userData: { name: string; age: number } = {
+  name: "Max",
+  age: 27
+};
+
+// userData = {
+//   a: "Hello",
+//   b: 22
+// };

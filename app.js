@@ -46,7 +46,7 @@ console.log(car);
 car = { brand: "BMW", series: 3 };
 console.log(car);
 /**
- * Functions types
+ * Functions
  */
 function returnMyName() {
     return myName;
@@ -60,4 +60,21 @@ function sayHello() {
 function multiply(value1, value2) {
     return value1 * value2;
 }
-console.log(multiply(2, "Max"));
+console.log(multiply(2, 5));
+/**
+ * Function types
+ */
+var myMultiply;
+// myMultiply = sayHello;
+// myMultiply();
+myMultiply = multiply;
+myMultiply(5, 2);
+// objects
+var userData = {
+    name: "Max",
+    age: 27
+};
+// userData = {
+//   a: "Hello",
+//   b: 22
+// };
